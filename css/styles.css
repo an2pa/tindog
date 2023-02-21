@@ -1,0 +1,135 @@
+
+#title{
+    background-color: #ff4c68;
+    font-size: 1.25rem;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-size: 1.5rem;
+}
+h2{
+    color: rgb(11, 11, 11);
+}
+p{
+    color: #8f8f8f;
+}
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 2rem;
+}
+.navbar{
+    padding-bottom: 50px;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.downlbtn{
+    margin: 5% 3% 5% 0%;
+}
+.titleimage{
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+.secondrow{
+    text-align: center;
+    padding: 5%;
+}
+.ikone{
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: #ef8172;
+}
+.ikone:hover{
+    color:#ff4c68;
+}
+#features{
+    padding: 100px 200px;
+    background-color: white;
+    position: relative;
+}
+
+#testimonials{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.testimonial-text{
+    color: white;
+}
+.dog-img{
+    width: 15%;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+#press{
+    background-color:#ef8172 ;
+    padding: 50px 100px 100px;
+    text-align: center;
+
+}
+.press-img{
+    width: 15%;
+    margin-right: 50px;
+}
+.carousel-item{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.card{
+    height: 100%;
+}
+.price-btn{
+    width: 100%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 5%;
+}
+@media (max-width: 1028px ){
+    .titleimage{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 35% 5%;
+    color: white;
+}
+.cta-btn{
+    margin-right: 5%;
+    margin-top: 10%;
+}
+#footer{
+    text-align: center;
+    padding: 5% 0% 5%;
+}
+.footer-icn{
+    margin-right: 2%;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+.foot{
+    margin-right: 30px;
+}
